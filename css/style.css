@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    background-color: grey;
+    height: 500px;
+    width:auto;
+ 
+}
+nav{
+    background-color:lightgreen;
+    height: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.red-box{
+    background-color: red;
+    height: 100px;
+    width: 200px;  
+}
+.orange-box{
+    background-color: orange;
+    height: 400px;
+    width: 33.33%%;  
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+}
+.lightgreen-box{
+    background-color: lightgreen;
+    height:300px;
+    width: 500px;
+    
+
+}
+
+.green-box{
+    background-color: green;
+    height:300px;
+    width: 500px;
+
+}
+.section-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+.section-2{
+    background-color: gray;
+}
+.section-4{
+    background-color: gray;
+    padding-top: 20px;
+    padding-left: 225px;
+    padding-right: 225px;
+    
+}
+.rect-green{
+    background-color: green;
+    width: auto;
+    height: 300px;
+}
+.rect-lightgreen{
+    background-color: lightgreen;
+    width: auto;
+    height: 300px;
+}
+.rect-darkgreen{
+    background-color: darkgreen;
+    width: auto;
+    height: 300px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 11%;
+    padding-right: 11%;
+    }
+.rect-lightcoral{
+    width: 25%;
+    height: 800px;
+    background-color: lightcoral;
+}
+.rect-red{
+    width: 25%;
+    height: 800px;
+    background-color: red; 
+}
+.rect-darkred{
+    width: 25%;
+    height: 800px;
+    background-color: darkred; 
+}
+.rect-blue{
+    width: 200px;
+    height: 100px;
+    background-color: blue; 
+}
+.end-container{
+    margin-left: 11%;
+    margin-right: 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightblue;
+}
