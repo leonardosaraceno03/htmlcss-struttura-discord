@@ -39,7 +39,7 @@ nav{
 .lightgreen-box{
     background-color: lightgreen;
     height:300px;
-    width: 500px;
+    width: 450px;
     
 
 }
@@ -47,18 +47,30 @@ nav{
 .green-box{
     background-color: green;
     height:300px;
-    width: 500px;
+    width: 450px;
 
 }
-.section-main{
+.section-main{ 
+    padding-left: 225px;
+    padding-right: 225px;
+}
+.section-1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: space-between;
     
 }
 .section-2{
     background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+    
+.section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .section-4{
     background-color: gray;
